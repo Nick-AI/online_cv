@@ -1,12 +1,30 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Pubs
+- skill: 2022
+  description: >
+    <ol type="1">
+      <li><b>Y. Glaser</b>, J. Shepherd, L. Leong, T. Wolfgruber, L.-Y. Lui, P. Sadowski, and S. Cummings. Deep learning predicts all-cause mortality from longitudinal total-body DXA imaging. <i>Communications Medicine - Nature, 2022</i></li>
+      <li><b>Y. Glaser</b>, P. Sadowski, J. Stopa. Self-supervised detection of atmospheric phenomena from remotely sensed synthetic aperture radar imagery. <i>In NeurIPS Machine Learning and the Physical Sciences Workshop, 2022</i></li>
+      <li>V.F.L. Fernandes, <b>Y. Glaser</b>, M. Iwashita, M. Yoshizawa. Evolution of left–right asymmetry in the sensory system and foraging behavior during adaptation to food-sparse cave environments. <i>BMC Biol 2022</i></li>
+    </ol>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: 2021
+  description: >
+    <ol type="1">
+      <li><b>Y. Glaser</b>, J. Shepherd, L. Leong, T. Wolfgruber, L.-Y. Lui, P. Sadowski, and S. Cummings. Deep learning identifies body composition changes over time in total-body DXA imaging to predict all-cause mortality. In <i>The Radiological Society of North America scientific assembly and annual meeting (RSNA), 2021</i></li>
+      <li>M. Ito, <b>Y. Glaser</b> and P. Sadowski. Evolution-Informed Neural Networks for Microbiome Data Analysis. In <i>IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2021</i></li>
+    </ol>
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: 2020
+  description: >
+    <ol type="1">
+      <li><b>Y. Glaser</b>, P. Sadowski, T. Wolfgruber, L. Liu, S. Cummings, and J. Shepherd. Hip fracture risk modeling using DXA and deep learning. In <i>Medical Imaging Meets NeurIPS Workshop, 2020</i></li>
+      <li><b>Y. Glaser</b>, S. Kohani, K. Nishimura, and P. Sadowski. Particle identification in the Belle II detector using deep learning. In <i>AAAI 2020 Fall Symposium on Physics-guided AI to Accelerate Scientific Discovery, 2020</i></li>
+      <li>B. Quach, <b>Y. Glaser</b>, J. E. Stopa, A. A. Mouche, and P. Sadowski. Deep learning for predicting significant wave height from synthetic aperture radar. In <i>IEEE Transactions on Geoscience and Remote Sensing, 59(3):1859–1867, 2020</i></li>
+      <li>B. Quach, <b>Y. Glaser</b>, J. Stopa, and P. Sadowski. Deep sensing of ocean wave heights with synthetic aperture radar. In <i>AAAI 2020 Spring Symposium on Combining Artificial Intelligence and Machine Learning with Physical Sciences, 2020</i></li>
+    </ol>
+
+- skill: 2019
+  description: >
+    <ol type="1">
+      <li>R. Beck, P. Sadowski, <b>Y. Glaser</b>, and I. Szapudi. Refined redshift regression in cosmology with graph convolution networks. In <i>NeurIPS Machine Learning and the Physical Sciences Workshop, 2019</i></li>
+    </ol>

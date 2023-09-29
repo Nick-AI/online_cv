@@ -1,13 +1,17 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: PhD Computer Science
+  uni: University of Hawaiʻi at Mānoa
+  year: 2020 &mdash; Present
+  summary: Under advisor Peter Sadowski
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: M.S. Computer Science
+  uni: University of Hawaiʻi at Mānoa
+  year: 2018 &mdash; 2020
+  award: GPA 3.88/4.0.
+  summary: Thesis - <i>Physics-informed Neural Networks for Belle II Kaon Versus Pion Particle Identification</i>
+
+- degree: B.S. Computer Science
+  uni: University of North Georgia
+  year: 2018 &mdash; 2020
+  award: GPA 3.97/4.0
+  summary: Graduated Summa Cum Laude from Honors Program. Psychology minor.

@@ -21,12 +21,13 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    float: left;
+    width: 120px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
-    display: block;
+    // @include border-radius(200px);
+    margin: 0 2rem auto;
+    display: inline;
   }
 
   .header-name {
@@ -36,12 +37,13 @@
     text-align: center;
     letter-spacing: -.15rem;
     line-height: 1;
-    margin: 1rem 0 0;
+    margin: 1rem 1rem 0;
   }
 
   .header-contact-info {
     @include sans;
     text-align: center;
+    margin: 0 1rem 0;
   }
   .header-contact-info p a {
     color: inherit;
@@ -49,7 +51,7 @@
 
   .title-bar {
     @include section_border;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: .4rem 0;
     @include clearfix;
 
@@ -147,7 +149,7 @@
 
   .resume-item-details {
     font-size: 1.125rem;
-    margin: 0 0 .75rem;
+    margin: 0 0 .5rem;
     line-height: 1;
 
     &.award-title {

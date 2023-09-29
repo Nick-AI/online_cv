@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/profile_pic.png" alt="me" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -48,26 +48,6 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
-
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
-
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -97,9 +77,30 @@
       {% endif %}
 
 
+      {% if site.resume_section_experience %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        {% for job in site.data.experience %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Experience -->
+      {% endif %}
+
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
-      <section class="content-section">
+      <!-- <section class="content-section">
         <header class="section-header">
           <h2>Projects</h2>
         </header>
@@ -113,7 +114,7 @@
         </div>
         {% endfor %}
 
-      </section>
+      </section> -->
       <!-- end Projects -->
       {% endif %}
 
@@ -122,12 +123,12 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Peer Reviewed Publications</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <p class="resume-item-copy" style="margin-left: 25px;">{{ skill.description }}</p>
         </div>
         {% endfor %}
 
@@ -137,7 +138,7 @@
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Recognition</h2>
@@ -151,7 +152,7 @@
         </div>
         {% endfor %}
 
-      </section>
+      </section> -->
       <!-- end Recognition -->
       {% endif %}
 
@@ -160,7 +161,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Extracurricular Activities</h2>
         </header>
 
         {% for association in site.data.associations %}
@@ -177,7 +178,7 @@
 
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Outside Interests</h2>
@@ -191,13 +192,13 @@
           </ul>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Interests -->
       {% endif %}
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Additional Links</h2>
@@ -211,7 +212,7 @@
           </ul>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Links -->
       {% endif %}
 
@@ -232,8 +233,9 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">© 2023 Yannik Glaser. Powered by Jekyll.</p>
+        <a href="https://github.com/jglovier/resume-template" title="favicon" style="font-size: 10px; text-decoration: none">Jekyll theme.</a>
+        <a href="https://www.icons8.com" title="favicon" style="font-size: 10px; text-decoration: none">Icon source.</a>
       </footer>
 
     </div>
